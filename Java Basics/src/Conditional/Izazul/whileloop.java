@@ -51,15 +51,28 @@ public class whileloop {
 //           i++;
 
 
+//       Scanner input = new Scanner(System.in);
+//       System.out.println("welcome to multiplication table");
+//       System.out.println("please enter the number ");
+//       int number = input.nextInt();
+//       int i = 1;
+//       while(i <= 10){
+//           System.out.println(number + "x" + i + "=" + (number * i ));
+//           i++;
+      // }
+
+
        Scanner input = new Scanner(System.in);
-       System.out.println("welcome to multiplication table");
+       System.out.println("add of thr number");
        System.out.println("please enter the number ");
        int number = input.nextInt();
        int i = 1;
+       int sum = 0;
        while(i <= 10){
-           System.out.println(number + "x" + i + "=" + (number * i ));
+           sum = sum + i;
            i++;
        }
+       System.out.println("sum = " + sum);
 
 
 
