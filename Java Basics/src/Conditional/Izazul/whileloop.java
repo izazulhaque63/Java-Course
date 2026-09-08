@@ -1,5 +1,6 @@
 package Conditional.Izazul;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class whileloop {
@@ -44,11 +45,22 @@ public class whileloop {
 //       }
 //
 //
-         int i = 0;
-         while (i <= 4){
-           System.out.println(i);
+//         int i = 0;
+//         while (i <= 4){
+//           System.out.println(i);
+//           i++;
+
+
+       Scanner input = new Scanner(System.in);
+       System.out.println("welcome to multiplication table");
+       System.out.println("please enter the number ");
+       int number = input.nextInt();
+       int i = 1;
+       while(i <= 10){
+           System.out.println(number + "x" + i + "=" + (number * i ));
            i++;
        }
+
 
 
 
