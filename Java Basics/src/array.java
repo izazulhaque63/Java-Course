@@ -25,12 +25,21 @@ public class array {
 //        System.out.println(myarray[4]);
 
 
-        int[] myarray = {98, 94, 93, 95,96};
-        int index = 2;
-        System.out.println(myarray[0]);
-        System.out.println(myarray[1]);
-        System.out.println(myarray[index]);
-        System.out.println(myarray[3]);
-        System.out.println(myarray[4]);
+//        int[] myarray = {98, 94, 93, 95,96};
+//        int index = 2;
+//        System.out.println(myarray[0]);
+//        System.out.println(myarray[1]);
+//        System.out.println(myarray[index]);
+//        System.out.println(myarray[3]);
+//        System.out.println(myarray[4]);
+
+
+        int[] myarray = {91, 92, 93, 94,95};
+        int index = 0;
+        while (index < 5){
+            System.out.println(myarray[index]);
+            index++;
+        }
+
     }
 }
