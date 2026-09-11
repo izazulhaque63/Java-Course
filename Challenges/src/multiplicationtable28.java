@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class multiplicationtable {
+public class multiplicationtable28 {
     public static void main(String[] args) {
         System.out.println("welcome to multiplication table");
         multiplicationtablee();
