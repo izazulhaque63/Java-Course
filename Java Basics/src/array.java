@@ -34,12 +34,28 @@ public class array {
 //        System.out.println(myarray[4]);
 
 
-        int[] myarray = {91, 92, 93, 94,95};
-        int index = 0;
-        while (index < 5){
-            System.out.println(myarray[index]);
-            index++;
-        }
+//        int[] myarray = {91, 92, 93, 94,95};
+//        int index = 0;
+//        while (index < 5){
+//            System.out.println(myarray[index]);
+//            index++;
+//        }
+//        int[] marks = new int[4];
+//        System.out.println(marks.length);
+
+//        int [] array = {2, 3 ,25, 28, 21};
+//        System.out.println(array.length);
+//        System.out.println(array[0]);
+//        System.out.println(array[1]);
+//        System.out.println(array[3]);
+
+
+
+        int[] myArray = new int[3];
+        myArray[0] = 9;
+        myArray[1] = 3;
+        myArray[2] = 6;
+        System.out.println(myArray );
 
     }
 }
