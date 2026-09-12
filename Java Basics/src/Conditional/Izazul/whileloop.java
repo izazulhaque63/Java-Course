@@ -62,20 +62,30 @@ public class whileloop {
       // }
 
 
+//       Scanner input = new Scanner(System.in);
+//       System.out.println("add of thr number");
+//       System.out.println("please enter the number ");
+//       int number = input.nextInt();
+//       int i = 1;
+//       int sum = 0;
+//       while(i <= 10){
+//           sum = sum + i;
+//           i++;
+//       }
+//       System.out.println("sum = " + sum);
+
+
        Scanner input = new Scanner(System.in);
-       System.out.println("add of thr number");
-       System.out.println("please enter the number ");
-       int number = input.nextInt();
+       System.out.println("please enter your number");
+       int n = input.nextInt();
        int i = 1;
        int sum = 0;
-       while(i <= 10){
+       while (i <= 5){
            sum = sum + i;
            i++;
+           //System.out.println("your total sum is "+ sum);
        }
-       System.out.println("sum = " + sum);
-
-
-
-
+       System.out.println("your total sum is "+ sum);
    }
+
 }
