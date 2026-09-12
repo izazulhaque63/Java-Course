@@ -90,40 +90,40 @@ public class array {
 //                input.close();
 
 
-//        Scanner input = new Scanner(System.in);
-//        int[] arr = new int[4];
-//        int i = 0;
-//        System.out.println("print 4 elements array");
-//        while(i < arr.length){
-//            System.out.println("enter element at index " + i + ":");
-//            arr[i] = input.nextInt();
-//            i++;
-//        }
-//        i = 0;
-//        System.out.println("array element are ");
-//        while (i < arr.length){
-//            System.out.println(arr[i]);
-//            i++;
-//        }
-
-
-
-
-
-
         Scanner input = new Scanner(System.in);
-        System.out.println("please enter your number");
-        int n = input.nextInt();
-        int i = 1;
-        int sum = 0;
-        while (i <= n){
-            sum = sum + i;
+        int[] arr = new int[4];
+        int i = 0;
+        System.out.println("print 4 elements array");
+        while(i < arr.length){
+            System.out.println("enter element at index " + i + ":");
+            arr[i] = input.nextInt();
             i++;
-            //System.out.println("your total sum is "+ sum);
         }
-        System.out.println("your total sum is "+ sum);
-            }
+        i = 0;
+        System.out.println("array element are ");
+        while (i < arr.length){
+            System.out.println(arr[i]);
+            i++;
         }
+
+
+
+
+
+
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("please enter your number");
+//        int n = input.nextInt();
+//        int i = 1;
+//        int sum = 0;
+//        while (i <= n){
+//            sum = sum + i;
+//            i++;
+//            //System.out.println("your total sum is "+ sum);
+//        }
+//        System.out.println("your total sum is "+ sum);
+//            }
+//        }
 
 
 
