@@ -102,17 +102,27 @@ public class array {
 //        }
 
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("please enter your number");
-        int n = input.nextInt();
-        int i = 1;
-        int sum = 0;
-        while (i <= n) {
-            sum = sum + i;
-            i++;
-            //System.out.println("your total sum is "+ sum);
-        }
-        System.out.println("your total sum is " + sum);
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("please enter your number");
+//        int n = input.nextInt();
+//        int i = 1;
+//        int sum = 0;
+//        while (i <= n) {
+//            sum = sum + i;
+//            i++;
+//            //System.out.println("your total sum is "+ sum);
+//        }
+//       // System.out.println("your total sum is " + sum);
+
+
+        int[] myArr = new int[3];
+        myArr[0] = 5;
+        myArr[1] = 0;
+        myArr[2] = 1;
+        System.out.println(myArr.length);
+        System.out.println(myArr[0]);
+        System.out.println(myArr[1]);
+        System.out.println(myArr[2]);
     }
 }
 
