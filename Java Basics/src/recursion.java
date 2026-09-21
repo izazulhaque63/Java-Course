@@ -2,21 +2,21 @@ import java.util.Scanner;
 
 public class recursion {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("welcome to recurion examples");
-        System.out.println("please enter your number");
-        int number = input.nextInt();
-        long fact = factorial(number);
-        System.out.println("your factorial is fact " + fact);
-
-    }
-    public static long factorial(int number){
-        System.out.println("function called for: " + number);
-        if (number == 1){
-            return 1;
-        }
-        return number * factorial(number-1);
-    }
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("welcome to recurion examples");
+//        System.out.println("please enter your number");
+//        int number = input.nextInt();
+//        long fact = factorial(number);
+//        System.out.println("your factorial is fact " + fact);
+//
+//    }
+//    public static long factorial(int number){
+//        System.out.println("function called for: " + number);
+//        if (number == 1){
+//            return 1;
+//        }
+//        return number * factorial(number-1);
+//    }
 
 //    public static long factorialItretive(int number) {
 //        long result = 1;
@@ -25,5 +25,31 @@ public class recursion {
 //        }
 //        return result;
 //    }
+
+
+
+
+
+
+//      printNumbers(3);
+
+
+
+    }
+//    public static void printNumbers(int num){
+//        if (num == 0){
+//            return ;
+//        }
+//        System.out.println(num);
+//        System.out.println(num - 1);
+//    }
+
+
+
+
+
+
+
+
 
 }
