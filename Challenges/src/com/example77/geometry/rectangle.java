@@ -1,4 +1,4 @@
-package com.example.geometry;
+package com.example77.geometry;
 
 public class rectangle {
     public rectangle(int length, int breath) {

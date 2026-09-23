@@ -1,7 +1,7 @@
-package com.example.utils;
+package com.example77.utils;
 
-import com.example.geometry.circle;
-import com.example.geometry.rectangle;
+import com.example77.geometry.circle;
+import com.example77.geometry.rectangle;
 
 public class calculator {
     public static void main(String[] args) {
