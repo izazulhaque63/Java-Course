@@ -1,5 +1,7 @@
 package Loop;
 
+import java.util.Scanner;
+
 public class forLoop {
     public static void main() {
 //        for (int i = 1;  i <= 10; i++){
@@ -26,12 +28,23 @@ public class forLoop {
 
 
 
-        int sum = 0;
-        for (int i = 1; i <= 5; i++) {
-            sum += i;
-            System.out.println("The sum is " + sum);
-        }
+//        int sum = 0;
+//        for (int i = 1; i <= 5; i++) {
+//            sum += i;
+//            System.out.println("The sum is " + sum);
+       // }
 //        System.out.println("The sum is " + sum);
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("printing positive numbers");
+        System.out.println("please enter a number");
+        int num = sc.nextInt();
+        while(num <= 0){
+            System.out.println(" please enter a positive number");
+            int num1 = sc.nextInt();
+        }
+        System.out.println("your number is correct");
     }
 
 }
