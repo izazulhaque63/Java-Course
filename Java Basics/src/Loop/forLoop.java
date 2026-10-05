@@ -36,15 +36,39 @@ public class forLoop {
 //        System.out.println("The sum is " + sum);
 
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("printing positive numbers");
-        System.out.println("please enter a number");
-        int num = sc.nextInt();
-        while(num <= 0){
-            System.out.println(" please enter a positive number");
-            int num1 = sc.nextInt();
-        }
-        System.out.println("your number is correct");
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("printing positive numbers");
+//        System.out.println("please enter a number");
+//        int num = sc.nextInt();
+//        while(num <= 0){
+//            System.out.println(" please enter a positive number");
+//            int num1 = sc.nextInt();
+//        }
+//        System.out.println("your number is correct");
+
+
+//        for  (int row = 1; row <= 3; row++) {
+//            for (int coloum = 1; coloum <= 2; coloum++) {
+//                System.out.print("row: " + row + " , coloum: " + coloum);
+//            }
+
+       // }
+
+
+//        for  (int row = 1; row <= 3; row++) {
+//            for (int coloum = 1; coloum <= 4; coloum++) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
+
+//        for  (int row = 1; row <= 5; row++) {
+//            for (int coloum = 1; coloum <= row; coloum++) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
     }
 
 }

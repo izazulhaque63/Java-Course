@@ -30,12 +30,14 @@ public class doWhileLoop {
 //        } while (i <= 5);
 
 
-        int i = 10;
-//        do {
-//            System.out.println(i);
-          while (i <= 5){
-              System.out.println(i);
-          }
+//        int i = 10;
+//       do {
+//         System.out.println(i);
+//          while (i <= 5){
+//              System.out.println(i);
+//          }
+
+
 
 
 

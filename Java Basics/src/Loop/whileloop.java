@@ -87,14 +87,26 @@ public class whileloop {
 //      // System.out.println("your total sum is "+ sum);
 
 
-       Scanner input = new Scanner(System.in);
-       System.out.println("please enter your number");
-       int num = input.nextInt();
-       int i = 1;
-       while (i <= 10){
-           System.out.println(num + "x" + i + "=" + (num * i));
-           i++;
-       }
+//       Scanner input = new Scanner(System.in);
+//       System.out.println("please enter your number");
+//       int num = input.nextInt();
+//       int i = 1;
+//       while (i <= 10){
+//           System.out.println(num + "x" + i + "=" + (num * i));
+//           i++;
+//       }
+
+
+
+       int row = 1;
+       while (row <= 3) {
+           int column = 1;
+           while (column <= 3) {
+               System.out.print("* ");
+               column++;
+           }
+           System.out.println();
+           row++; }
    }
 
 }
