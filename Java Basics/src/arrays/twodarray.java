@@ -1,3 +1,5 @@
+package arrays;
+
 public class twodarray {
     static void main(String[] args) {
         System.out.println("welcome to 2D array");

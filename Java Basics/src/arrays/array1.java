@@ -1,6 +1,6 @@
-import java.util.Scanner;
+package arrays;
 
-public class array {
+public class array1 {
     public static void main(String[] args) {
         //     System.out.println("welcome to array");
 //        int[] myarray = new int[5];
