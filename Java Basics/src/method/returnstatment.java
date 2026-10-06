@@ -19,7 +19,13 @@ public class returnstatment {
 
 
 
-        System.out.println("division is : "  + (Divide(5.5,16.4)));
+//        System.out.println("division is : "  + (Divide(5.5,16.4)));
+
+
+        System.out.println(addnumbers(2,2));
+        System.out.println(addnumbers(3,4));
+        System.out.println(addnumbers(2,3,5));
+        System.out.println(addnumbers(2,3,5,6));
 
     }
 
@@ -46,7 +52,19 @@ public class returnstatment {
 
 
 
-    public static double Divide(double first, double second){
-        return first / second;
+//    public static double Divide(double first, double second){
+//        return first / second;
+ //   }
+
+
+
+    public  static int addnumbers(int a, int b){
+        return a+b;
+    }
+    public  static int addnumbers(int a, int b, int c){
+        return a+b+c;
+    }
+    public  static int addnumbers(int a, int b, int c, int d){
+        return a+b+c+d;
     }
 }
