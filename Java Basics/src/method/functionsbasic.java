@@ -1,4 +1,4 @@
-package functions;
+package method;
 
 public class functionsbasic {
     public static void main(String[] args) {
