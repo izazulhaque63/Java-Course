@@ -64,8 +64,41 @@ public class strbasic {
 
 
 
-        String message = "I am learning Java";
-        System.out.println(message.contains("Java"));   // true
-        System.out.println(message.contains("Python")); // false
+//        String message = "I am learning Java";
+//        System.out.println(message.contains("Java"));   // true
+//        System.out.println(message.contains("Python")); // false
+
+
+//        String message = "I am learning Java";
+//        System.out.println(message.contains("java")); // false
+
+
+
+//        String sentence = "I am learning Java";
+//        String[] words = sentence.split(" ");
+//        System.out.println(words[0]); // I
+//        System.out.println(words[1]); // am
+//        System.out.println(words[2]); // learning
+//        System.out.println(words[3]); // java
+
+
+//        String message = "Hello";
+//        message.concat(" Java");
+//        System.out.println(message); // Hello
+//        message = message.concat(" Java");
+//        System.out.println(message); // Hello Java
+
+
+
+        String firstName = "Aman";
+        String lastName = "Kumar";
+        String fullName = firstName + " " + lastName;
+        System.out.println(fullName); // Aman Kumar
+
+
+
+        String name = "Aman";
+        int age = 24;
+        System.out.println(name + " is " + age + " years old.");
     }
 }
