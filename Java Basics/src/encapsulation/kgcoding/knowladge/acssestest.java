@@ -1,4 +1,6 @@
-package encapsulation.kgcoding;
+package encapsulation.kgcoding.knowladge;
+
+import encapsulation.kgcoding.car;
 
 public class acssestest {
     public static void main(String[] args) {
