@@ -2,9 +2,11 @@ package abstraction;
 
 import java.lang.invoke.StringConcatFactory;
 
-public class vechile {
+public abstract class vechile {
     private int noOfTires;
     private String carName;
+
+    public abstract void makeStartSoud();
 
     public vechile(int noOfTires, String carName) {
         this.noOfTires = noOfTires;
@@ -29,5 +31,8 @@ public class vechile {
 
     public void vechileinfo(){
         System.out.println("im giving vechile information");
+    }
+    public void commute(){
+        System.out.println("im giving commute information");
     }
 }
