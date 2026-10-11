@@ -69,6 +69,13 @@ public class forLoop {
 //            }
 //            System.out.println();
 //        }
+
+
+        //int s = 1;
+        for (int i = 1; i <= 4; i++) {
+            System.out.println("****");
+        }
+        System.out.println();
     }
 
 }
