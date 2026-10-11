@@ -75,7 +75,7 @@ public class forLoop {
         for (int i = 1; i <= 4; i++) {
             System.out.println("****");
         }
-        System.out.println();
+       // System.out.println();
     }
 
 }
