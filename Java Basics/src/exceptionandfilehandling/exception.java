@@ -12,7 +12,8 @@ public class exception {
             int result = first / second;
             System.out.println(result);
         } catch (ArithmeticException e) {
-            System.out.println(e.getMessage());
+           // System.out.println(e.getMessage());
+            System.out.println("divide by zero, enter a valid value");
         }
 
     }
