@@ -8,7 +8,12 @@ public class exception {
         System.out.println("please two numbers:");
         int first = sc.nextInt();
         int second = sc.nextInt();
-        int result = first / second;
-        System.out.println(result);
+        try {
+            int result = first / second;
+            System.out.println(result);
+        } catch (ArithmeticException e) {
+            System.out.println(e.getMessage());
+        }
+
     }
 }
