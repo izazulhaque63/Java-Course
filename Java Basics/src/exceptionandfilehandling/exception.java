@@ -1,5 +1,6 @@
 package exceptionandfilehandling;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class exception {
@@ -14,6 +15,8 @@ public class exception {
         } catch (ArithmeticException e) {
            // System.out.println(e.getMessage());
             System.out.println("divide by zero, enter a valid value");
+        }catch (InputMismatchException e){     //we can write multiple catch blocks
+            System.out.println(e.getMessage());
         }
 
     }
