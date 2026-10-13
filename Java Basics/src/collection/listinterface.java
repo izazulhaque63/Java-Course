@@ -1,12 +1,11 @@
 package collection;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class list {
+public class listinterface {
     public static void main(String[] args) {
-        List strList = new ArrayList();
+        List <String> strList = new ArrayList<>(); // <> use for specific type declaration like int, String etc
         strList.add("prashant");
         strList.add("shanghai");
 
@@ -17,6 +16,7 @@ public class list {
 
 //        strList.add(1, "pradeep");
 //        strList.remove("shanghai");
+          //strList.add(54);
 
 
 //        if (strList.contains("pradeep")) {
@@ -30,6 +30,9 @@ public class list {
 //            for (int i = 0; i < strList.size(); i++) {
 //                System.out.println(strList.get(i));
 //            }
+        for (String str : strList) {
+            System.out.println(str);
+        }
         }
     }
 
