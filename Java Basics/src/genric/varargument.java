@@ -1,7 +1,7 @@
 package genric;
 
 public class varargument {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         System.out.println(sum(3,6));
         System.out.println(sum(3,6,9));
         System.out.println(sum(3,6,9,6));
