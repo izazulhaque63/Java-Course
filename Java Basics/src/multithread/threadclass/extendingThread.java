@@ -1,4 +1,4 @@
-package multithread;
+package multithread.threadclass;
 
 public class extendingThread {
     public static void main(String[] args) {

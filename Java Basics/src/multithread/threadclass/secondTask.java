@@ -1,4 +1,4 @@
-package multithread;
+package multithread.threadclass;
 
 public class secondTask extends Thread {
     @Override

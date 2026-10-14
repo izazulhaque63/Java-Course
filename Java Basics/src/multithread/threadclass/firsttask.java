@@ -1,4 +1,4 @@
-package multithread;
+package multithread.threadclass;
 
 public class firsttask extends Thread {
 
