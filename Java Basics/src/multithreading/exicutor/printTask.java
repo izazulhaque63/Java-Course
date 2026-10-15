@@ -1,4 +1,4 @@
-package multithreading.exicutor.singlethred;
+package multithreading.exicutor;
 
 public class printTask  implements Runnable {
     @Override
