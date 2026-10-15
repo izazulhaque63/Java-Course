@@ -1,4 +1,4 @@
-package multithread.threadclass.runable;
+package multithreading.threads.runable;
 
 public class printTask implements Runnable {
 
