@@ -5,6 +5,7 @@ public class lambdatesting {
     public static void main(String[] args) {
        lambdatesting lambda = new lambdatesting();
       int sum = lambda.sum(4,5);
+        System.out.println(sum);
       lambda.printstring("this is the best course");
 
 
