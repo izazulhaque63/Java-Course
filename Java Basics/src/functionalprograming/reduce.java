@@ -24,5 +24,9 @@ public class reduce {
                     }
                 });
         System.out.println("using reduse method to adding " + newsum);
+
+        int newsum2 = numbers.stream()
+                .reduce(0,(a,b)->a+b);
+        System.out.println("using reduse method to adding " + newsum2);
     }
 }
