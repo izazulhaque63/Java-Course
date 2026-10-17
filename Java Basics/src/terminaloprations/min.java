@@ -1,8 +1,9 @@
 package terminaloprations;
 
-import java.util.ArrayList;
+
 import java.util.List;
 import java.util.Optional;
+
 
 public class min {
     public static void main(String[] args) {
@@ -10,5 +11,7 @@ public class min {
         Optional<Integer> max = list.stream()
                 .min(Integer::compareTo);
         max.ifPresent(System.out::println);
+
+
     }
 }
