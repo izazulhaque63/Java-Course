@@ -17,7 +17,7 @@ public class avarage {
         System.out.println("your math marks is: " + marks[2]);
 
         int percentage = (marks[0] + marks[1] + marks[2]) / 3;
-      System.out.println("your percentage is: " + percentage +"%");
+      System.out.println("your percentage is: " + percentage +" %");
 
 
 
