@@ -38,8 +38,8 @@ public class breakk {
 
 
         System.out.println("before loop");
-        for (int i = 1; i <= 30; i++){
-            if (i == 29){
+        for (int i = 1; i <= 25; i++){
+            if (i == 14){
                 break;
             }
             System.out.println(i);
