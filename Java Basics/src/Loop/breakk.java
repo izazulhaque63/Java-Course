@@ -13,9 +13,21 @@ public class breakk {
 
 
 
+//        System.out.println("before loop");
+//        for (int i = 1; i <= 15; i++){
+//            if (i == 9){
+//                break;
+//            }
+//            System.out.println(i);
+//        }
+//        System.out.println("out of loop");
+
+
+
+
         System.out.println("before loop");
         for (int i = 1; i <= 15; i++){
-            if (i == 9){
+            if (i == 3){
                 break;
             }
             System.out.println(i);
