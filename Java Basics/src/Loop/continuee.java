@@ -12,9 +12,19 @@ public class continuee {
 //        System.out.println("out of loop");
 
 
+//        System.out.println("before loop");
+//        for (int i = 1; i <= 15; i++){
+//            if (i == 10){
+//                continue;
+//            }
+//            System.out.println(i);
+//        }
+//        System.out.println("out of loop");
+
+
         System.out.println("before loop");
-        for (int i = 1; i <= 15; i++){
-            if (i == 10){
+        for (int i = 1; i <= 5; i++){
+            if (i == 5){
                 continue;
             }
             System.out.println(i);
