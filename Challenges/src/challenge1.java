@@ -6,6 +6,6 @@ public class challenge1 {
         System.out.println("please enter your name");
         Scanner input = new Scanner(System.in);
         String name = input.nextLine();
-        System.out.print("welcome " + "to java coding");
+        System.out.print("welcome " + "to first challenge");
     }
 }

@@ -12,7 +12,7 @@ public class factorial30 {
     }
 
     public static long factorial(int num) {
-        if (num < 3) {
+        if (num < 2) {
             return 1;
         }
         long fact = 1;
