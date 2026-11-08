@@ -8,7 +8,7 @@ public class challenge11 {
         double base = input.nextDouble();
         System.out.println("please enter your perpendicular height in cm: ");
         double height = input.nextDouble();
-        double area = (base * height) / 2;
+        double area = (base * height) / 3;
         System.out.println("your area of triangle is " + area + "cm2");
     }
 }
