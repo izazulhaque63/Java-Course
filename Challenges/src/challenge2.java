@@ -9,9 +9,7 @@ public class challenge2 {
         int Firstnum = input.nextInt();
         System.out.println("please enter the second number");
         int Secondnum = input.nextInt();
-        System.out.println("please enter the third number");
-        int thirdnum = input.nextInt();
-        int sum = Firstnum + Secondnum + thirdnum;
+        int sum = Firstnum + Secondnum;
         System.out.println("your sum is: " + sum);
 
     }
