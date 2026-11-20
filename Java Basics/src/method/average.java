@@ -7,7 +7,7 @@ public class average {
         int c = 10;
         int sum = a+b+c;
 
-       int avarege = sum/2;
+       int avarege = sum/3;
         return avarege;
 
     }
