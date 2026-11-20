@@ -9,7 +9,11 @@ public class swap2 {
        temp = a;
        a = b;
        b = temp;
-        System.out.println(a + " " + b);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(temp);
+
+
 
     }
 }
